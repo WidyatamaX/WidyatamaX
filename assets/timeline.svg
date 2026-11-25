@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="296" viewBox="0 0 1200 296" role="img" aria-label="Journey timeline for Reza Widya Utama">
+  <title>Journey timeline for Reza Widya Utama</title>
+  <defs>
+    <linearGradient id="tl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0a12"/>
+      <stop offset="55%" stop-color="#131024"/>
+      <stop offset="100%" stop-color="#0d0b17"/>
+    </linearGradient>
+    <radialGradient id="tl-nebula-l" cx="22%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b0a12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tl-nebula-r" cx="84%" cy="76%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0b0a12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="tl-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#f5f2eb" opacity="0.065"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+
+  </style>
+  <rect width="1200" height="296" rx="10" fill="url(#tl-bg)"/>
+  <rect width="1200" height="296" rx="10" fill="url(#tl-nebula-l)"/>
+  <rect width="1200" height="296" rx="10" fill="url(#tl-dots)"/>
+  <line x1="165" y1="66" x2="1035" y2="66" stroke="#a78bfa" stroke-width="2.2" stroke-dasharray="6 5" opacity="0.72"/>
+  <text x="36" y="34" fill="#9b97b8" font-size="11.5" letter-spacing="1.8">▸ MEMORY LOG // CHAPTER CHECKPOINTS</text>
+    <g>
+    <circle cx="165.0" cy="66" r="12" fill="#0b0a12" stroke="#7dd3fc" stroke-width="2.2"/>
+    <polygon points="165.0,60.5 166.5,64.5 170.5,66.0 166.5,67.5 165.0,71.5 163.5,67.5 159.5,66.0 163.5,64.5" fill="#7dd3fc" opacity="1.0"/>
+    <line x1="165.0" y1="78" x2="165.0" y2="108" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <g class="rpg-box">
+    <rect x="36" y="108" width="258" height="160" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.1"/>
+    <rect x="40.5" y="112.5" width="249.0" height="151.0" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+    <rect x="50" y="122" width="106" height="22" rx="2" fill="#1b1730" stroke="#7dd3fc" stroke-width="1.2"/>
+    <text x="103" y="137" text-anchor="middle" fill="#7dd3fc" font-size="11" font-weight="700">2026 · Q2</text>
+    <text x="52" y="174" fill="#f5f2eb" font-size="16" font-weight="800" class="sans">Entered GitHub</text>
+    <text x="52" y="204" fill="#9b97b8" font-size="12">Started @WidyatamaX &amp; explored</text>
+    <text x="52" y="224" fill="#9b97b8" font-size="12">offline-first web engineering.</text>
+    <rect x="50" y="251" width="230" height="2.4" fill="#7dd3fc" opacity="0.8"/>
+  </g>  <g>
+    <circle cx="455.0" cy="66" r="12" fill="#0b0a12" stroke="#86efac" stroke-width="2.2"/>
+    <polygon points="455.0,60.5 456.5,64.5 460.5,66.0 456.5,67.5 455.0,71.5 453.5,67.5 449.5,66.0 453.5,64.5" fill="#86efac" opacity="1.0"/>
+    <line x1="455.0" y1="78" x2="455.0" y2="108" stroke="#86efac" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <g class="rpg-box">
+    <rect x="326" y="108" width="258" height="160" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.1"/>
+    <rect x="330.5" y="112.5" width="249.0" height="151.0" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+    <rect x="340" y="122" width="106" height="22" rx="2" fill="#1b1730" stroke="#86efac" stroke-width="1.2"/>
+    <text x="393" y="137" text-anchor="middle" fill="#86efac" font-size="11" font-weight="700">2026 · NOV</text>
+    <text x="342" y="174" fill="#f5f2eb" font-size="16" font-weight="800" class="sans">Shipped OpenFormu</text>
+    <text x="342" y="204" fill="#9b97b8" font-size="12">LP feed formulation engine with</text>
+    <text x="342" y="224" fill="#9b97b8" font-size="12">HiGHS WASM, Tauri v2 &amp; Capacitor.</text>
+    <rect x="340" y="251" width="230" height="2.4" fill="#86efac" opacity="0.8"/>
+  </g>  <g>
+    <circle cx="745.0" cy="66" r="12" fill="#0b0a12" stroke="#a78bfa" stroke-width="2.2"/>
+    <polygon points="745.0,60.5 746.5,64.5 750.5,66.0 746.5,67.5 745.0,71.5 743.5,67.5 739.5,66.0 743.5,64.5" fill="#a78bfa" opacity="1.0"/>
+    <line x1="745.0" y1="78" x2="745.0" y2="108" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <g class="rpg-box">
+    <rect x="616" y="108" width="258" height="160" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.1"/>
+    <rect x="620.5" y="112.5" width="249.0" height="151.0" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+    <rect x="630" y="122" width="106" height="22" rx="2" fill="#1b1730" stroke="#a78bfa" stroke-width="1.2"/>
+    <text x="683" y="137" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="700">2026 · NOV</text>
+    <text x="632" y="174" fill="#f5f2eb" font-size="16" font-weight="800" class="sans">Built Defisit Harian</text>
+    <text x="632" y="204" fill="#9b97b8" font-size="12">Zero-cloud Android finance app</text>
+    <text x="632" y="224" fill="#9b97b8" font-size="12">using React, Dexie &amp; OHLC charts.</text>
+    <rect x="630" y="251" width="230" height="2.4" fill="#a78bfa" opacity="0.8"/>
+  </g>  <g>
+    <circle cx="1035.0" cy="66" r="12" fill="#0b0a12" stroke="#f472b6" stroke-width="2.2"/>
+    <polygon points="1035.0,60.5 1036.5,64.5 1040.5,66.0 1036.5,67.5 1035.0,71.5 1033.5,67.5 1029.5,66.0 1033.5,64.5" fill="#f472b6" opacity="1.0"/>
+    <line x1="1035.0" y1="78" x2="1035.0" y2="108" stroke="#f472b6" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <g class="rpg-box">
+    <rect x="906" y="108" width="258" height="160" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.1"/>
+    <rect x="910.5" y="112.5" width="249.0" height="151.0" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+    <rect x="920" y="122" width="106" height="22" rx="2" fill="#1b1730" stroke="#f472b6" stroke-width="1.2"/>
+    <text x="973" y="137" text-anchor="middle" fill="#f472b6" font-size="11" font-weight="700">NEXT</text>
+    <text x="922" y="174" fill="#f5f2eb" font-size="16" font-weight="800" class="sans">Keep Building</text>
+    <text x="922" y="204" fill="#9b97b8" font-size="12">Scaling cross-platform tools &amp;</text>
+    <text x="922" y="224" fill="#9b97b8" font-size="12">Gemini / Antigravity workflows.</text>
+    <rect x="920" y="251" width="230" height="2.4" fill="#f472b6" opacity="0.8"/>
+  </g>
+</svg>

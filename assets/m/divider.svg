@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="28" viewBox="0 0 480 28" role="img" aria-label="Section Divider">
+  <title>Section Divider</title>
+  <defs>
+
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+
+  </style>
+  <line x1="28" y1="14.0" x2="204.0" y2="14.0" stroke="#4c4669" stroke-width="1.2" stroke-dasharray="4 6"/>
+  <line x1="276.0" y1="14.0" x2="452" y2="14.0" stroke="#4c4669" stroke-width="1.2" stroke-dasharray="4 6"/>
+  <polygon points="220.0,9.8 221.2,12.8 224.2,14.0 221.2,15.2 220.0,18.2 218.8,15.2 215.8,14.0 218.8,12.8" fill="#a78bfa" opacity="0.85"/>
+  <polygon points="240.0,6.8 242.0,12.0 247.2,14.0 242.0,16.0 240.0,21.2 238.0,16.0 232.8,14.0 238.0,12.0" fill="#f5f2eb" opacity="0.95"/>
+  <polygon points="260.0,9.8 261.2,12.8 264.2,14.0 261.2,15.2 260.0,18.2 258.8,15.2 255.8,14.0 258.8,12.8" fill="#7dd3fc" opacity="0.85"/>
+</svg>

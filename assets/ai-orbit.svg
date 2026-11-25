@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="366" viewBox="0 0 1200 366" role="img" aria-label="AI Toolbox featuring Google Gemini and Antigravity">
+  <title>AI Toolbox featuring Google Gemini and Antigravity</title>
+  <defs>
+    <linearGradient id="ai-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0a12"/>
+      <stop offset="55%" stop-color="#131024"/>
+      <stop offset="100%" stop-color="#0d0b17"/>
+    </linearGradient>
+    <radialGradient id="ai-nebula-l" cx="22%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b0a12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ai-nebula-r" cx="84%" cy="76%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0b0a12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ai-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#f5f2eb" opacity="0.065"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+    .spin-slow { animation: spin 36s linear infinite; }
+    .spin-rev { animation: spinr 24s linear infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinr { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+  </style>
+  <rect width="1200" height="366" rx="10" fill="url(#ai-bg)"/>
+  <rect width="1200" height="366" rx="10" fill="url(#ai-nebula-l)"/>
+  <rect width="1200" height="366" rx="10" fill="url(#ai-nebula-r)"/>
+  <rect width="1200" height="366" rx="10" fill="url(#ai-dots)"/>
+
+    <g class="rpg-box">
+    <rect x="26" y="24" width="518" height="318" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.2"/>
+    <rect x="31" y="29" width="508" height="308" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+    <g>
+    <!-- Soft dream glow -->
+    <circle cx="285" cy="183" r="118" fill="#a78bfa" opacity="0.08"/>
+    <!-- Rotating dashed orbit rings -->
+    <g class="spin-slow" style="transform-origin: 285px 183px;">
+      <circle cx="285" cy="183" r="112" fill="none" stroke="#a78bfa" stroke-width="1.3" stroke-dasharray="6 7" opacity="0.65"/>
+      <circle cx="397" cy="183" r="3.5" fill="#7dd3fc"/>
+      <circle cx="173" cy="183" r="3.5" fill="#f472b6"/>
+    </g>
+    <g class="spin-rev" style="transform-origin: 285px 183px;">
+      <circle cx="285" cy="183" r="74" fill="none" stroke="#7dd3fc" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.6"/>
+      <polygon points="285.0,103.5 286.5,107.5 290.5,109.0 286.5,110.5 285.0,114.5 283.5,110.5 279.5,109.0 283.5,107.5" fill="#fcd34d" opacity="0.9"/>
+    </g>
+
+    <!-- Core Star Emblem -->
+    <circle cx="285" cy="183" r="48" fill="#0b0a12" stroke="#f5f2eb" stroke-width="2.2"/>
+    <circle cx="285" cy="183" r="42" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.7"/>
+    <polygon points="285.0,158.0 288.6,167.4 298.0,171.0 288.6,174.6 285.0,184.0 281.4,174.6 272.0,171.0 281.4,167.4" fill="#7dd3fc" opacity="0.95" class="pulse"/>
+    <text x="285" y="197" text-anchor="middle" fill="#f5f2eb" font-size="11.5" font-weight="800" letter-spacing="1.2">GEMINI</text>
+    <text x="285" y="211" text-anchor="middle" fill="#a78bfa" font-size="9.5" font-weight="700">ANTIGRAVITY</text>
+
+      <g>
+    <line x1="285" y1="183" x2="285" y2="71" stroke="#7dd3fc" stroke-width="1" stroke-dasharray="3 4" opacity="0.4"/>
+    <rect x="225.2" y="56.0" width="119.6" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.4"/>
+    <circle cx="235.2" cy="71.0" r="3.2" fill="#7dd3fc"/>
+    <text x="290.0" y="75.0" text-anchor="middle" fill="#f5f2eb" font-size="11.5" font-weight="700">Architecture</text>
+  </g>  <g>
+    <line x1="285" y1="183" x2="419" y2="175" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3 4" opacity="0.4"/>
+    <rect x="359.2" y="160.0" width="119.6" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.4"/>
+    <circle cx="369.2" cy="175.0" r="3.2" fill="#a78bfa"/>
+    <text x="424.0" y="179.0" text-anchor="middle" fill="#f5f2eb" font-size="11.5" font-weight="700">Agentic Code</text>
+  </g>  <g>
+    <line x1="285" y1="183" x2="285" y2="295" stroke="#86efac" stroke-width="1" stroke-dasharray="3 4" opacity="0.4"/>
+    <rect x="225.2" y="280.0" width="119.6" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.4"/>
+    <circle cx="235.2" cy="295.0" r="3.2" fill="#86efac"/>
+    <text x="290.0" y="299.0" text-anchor="middle" fill="#f5f2eb" font-size="11.5" font-weight="700">Testing &amp; QA</text>
+  </g>  <g>
+    <line x1="285" y1="183" x2="151" y2="175" stroke="#f472b6" stroke-width="1" stroke-dasharray="3 4" opacity="0.4"/>
+    <rect x="99.0" y="160.0" width="104.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.4"/>
+    <circle cx="109.0" cy="175.0" r="3.2" fill="#f472b6"/>
+    <text x="156.0" y="179.0" text-anchor="middle" fill="#f5f2eb" font-size="11.5" font-weight="700">Automation</text>
+  </g>
+  </g>
+
+    <g class="rpg-box">
+    <rect x="568" y="24" width="606" height="318" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.2"/>
+    <rect x="573" y="29" width="596" height="308" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+  <text x="596" y="60" fill="#f5f2eb" font-size="15" font-weight="800" letter-spacing="2">▸ EQUIPPED AI SKILLS</text>
+  <text x="1146" y="60" text-anchor="end" fill="#a78bfa" font-size="11.5">ACTIVE LOADOUT</text>
+  <line x1="596" y1="74" x2="1148" y2="74" stroke="#4c4669" stroke-width="1.1" stroke-dasharray="4 4"/>
+    <rect x="596" y="94" width="552" height="52" rx="2" fill="#110f1d" stroke="#4c4669" stroke-width="1.2"/>
+  <rect x="596" y="94" width="4" height="52" fill="#7dd3fc"/>
+  <text x="614" y="114" fill="#7dd3fc" font-size="14" font-weight="800">✦ Google Gemini</text>
+  <text x="614" y="135" fill="#9b97b8" font-size="12.5">Deep reasoning, system design &amp; multimodal problem solving</text>  <rect x="596" y="158" width="552" height="52" rx="2" fill="#110f1d" stroke="#4c4669" stroke-width="1.2"/>
+  <rect x="596" y="158" width="4" height="52" fill="#a78bfa"/>
+  <text x="614" y="178" fill="#a78bfa" font-size="14" font-weight="800">✦ Antigravity</text>
+  <text x="614" y="199" fill="#9b97b8" font-size="12.5">Agentic coding, multi-file refactors &amp; automated verification</text>  <rect x="596" y="222" width="552" height="52" rx="2" fill="#110f1d" stroke="#4c4669" stroke-width="1.2"/>
+  <rect x="596" y="222" width="4" height="52" fill="#86efac"/>
+  <text x="614" y="242" fill="#86efac" font-size="14" font-weight="800">▸ Core Loop</text>
+  <text x="614" y="263" fill="#9b97b8" font-size="12.5">Spec-first planning → strict TypeScript → Vitest verification</text>  <rect x="596" y="286" width="552" height="52" rx="2" fill="#110f1d" stroke="#4c4669" stroke-width="1.2"/>
+  <rect x="596" y="286" width="4" height="52" fill="#f472b6"/>
+  <text x="614" y="306" fill="#f472b6" font-size="14" font-weight="800">▸ Principle</text>
+  <text x="614" y="327" fill="#9b97b8" font-size="12.5">AI accelerates shipping; offline-first craft owns reliability</text>
+</svg>

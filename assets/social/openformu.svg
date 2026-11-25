@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="48" viewBox="0 0 206 48" role="img" aria-label="OpenFormu Live">
+  <title>OpenFormu Live</title>
+  <defs>
+
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+
+  </style>
+    <g class="rpg-box">
+    <rect x="2" y="2" width="202" height="44" rx="2" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2"/>
+    <rect x="6" y="6" width="194" height="36" rx="1" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+  <rect x="7" y="39" width="192" height="2.2" fill="#86efac" opacity="0.85"/>
+  <text x="16" y="29" fill="#86efac" font-size="13" font-weight="700">▸</text>
+  <g transform="translate(32, 13)"><rect x="1" y="2" width="16" height="15" rx="2" fill="none" stroke="#f5f2eb" stroke-width="1.6"/><path d="M 5 12 L 8 8 L 10.5 10.5 L 13.5 6" fill="none" stroke="#86efac" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="58" y="28.5" fill="#f5f2eb" font-size="12.5" font-weight="700" letter-spacing="0.4">OpenFormu Live</text>
+</svg>

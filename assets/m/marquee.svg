@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="68" viewBox="0 0 480 68" role="img" aria-label="Tech stack and AI marquee">
+  <title>Tech stack and AI marquee</title>
+  <defs>
+    <linearGradient id="mq-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="black"/>
+      <stop offset="8%" stop-color="white"/>
+      <stop offset="92%" stop-color="white"/>
+      <stop offset="100%" stop-color="black"/>
+    </linearGradient>
+    <mask id="mq-mask">
+      <rect width="480" height="68" fill="url(#mq-fade)"/>
+    </mask>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+    .track { animation: scroll 24s linear infinite; }
+    @keyframes scroll {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-1868.4px); }
+    }
+  </style>
+    <g class="rpg-box">
+    <rect x="2" y="2" width="476" height="64" rx="4" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.0"/>
+    <rect x="6" y="6" width="468" height="56" rx="3" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+  <g mask="url(#mq-mask)">
+    <g class="track">
+      <g>  <g>
+    <rect x="0.0" y="19.0" width="112.8" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="12.0" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="22.0" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">TypeScript</text>
+  </g>
+  <g>
+    <rect x="124.8" y="19.0" width="97.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="136.8" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="146.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">React 19</text>
+  </g>
+  <g>
+    <rect x="233.8" y="19.0" width="68.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="245.8" cy="34.0" r="3.4" fill="#a78bfa"/>
+    <text x="255.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Vite</text>
+  </g>
+  <g>
+    <rect x="313.8" y="19.0" width="128.5" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="325.8" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="335.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Tailwind CSS</text>
+  </g>
+  <g>
+    <rect x="454.2" y="19.0" width="97.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="466.2" cy="34.0" r="3.4" fill="#fcd34d"/>
+    <text x="476.2" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Tauri v2</text>
+  </g>
+  <g>
+    <rect x="563.2" y="19.0" width="104.9" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="575.2" cy="34.0" r="3.4" fill="#86efac"/>
+    <text x="585.2" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Capacitor</text>
+  </g>
+  <g>
+    <rect x="680.1" y="19.0" width="167.9" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="692.1" cy="34.0" r="3.4" fill="#86efac"/>
+    <text x="702.1" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Offline-First PWA</text>
+  </g>
+  <g>
+    <rect x="860.0" y="19.0" width="112.8" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="872.0" cy="34.0" r="3.4" fill="#f472b6"/>
+    <text x="882.0" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">HiGHS WASM</text>
+  </g>
+  <g>
+    <rect x="984.8" y="19.0" width="167.9" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="996.8" cy="34.0" r="3.4" fill="#a78bfa"/>
+    <text x="1006.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">IndexedDB / Dexie</text>
+  </g>
+  <g>
+    <rect x="1164.6" y="19.0" width="68.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1176.6" cy="34.0" r="3.4" fill="#fb7185"/>
+    <text x="1186.6" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Rust</text>
+  </g>
+  <g>
+    <rect x="1244.6" y="19.0" width="81.2" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1256.6" cy="34.0" r="3.4" fill="#fcd34d"/>
+    <text x="1266.6" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Python</text>
+  </g>
+  <g>
+    <rect x="1337.9" y="19.0" width="81.2" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1349.9" cy="34.0" r="3.4" fill="#86efac"/>
+    <text x="1359.9" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Vitest</text>
+  </g>
+  <g>
+    <rect x="1431.1" y="19.0" width="144.2" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1443.1" cy="34.0" r="3.4" fill="#a78bfa"/>
+    <text x="1453.1" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">GitHub Actions</text>
+  </g>
+  <g>
+    <rect x="1587.4" y="19.0" width="136.4" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1599.4" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="1609.4" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Google Gemini</text>
+  </g>
+  <g>
+    <rect x="1735.8" y="19.0" width="120.6" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1747.8" cy="34.0" r="3.4" fill="#f472b6"/>
+    <text x="1757.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Antigravity</text>
+  </g></g>
+      <g transform="translate(1868.4, 0)">  <g>
+    <rect x="0.0" y="19.0" width="112.8" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="12.0" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="22.0" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">TypeScript</text>
+  </g>
+  <g>
+    <rect x="124.8" y="19.0" width="97.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="136.8" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="146.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">React 19</text>
+  </g>
+  <g>
+    <rect x="233.8" y="19.0" width="68.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="245.8" cy="34.0" r="3.4" fill="#a78bfa"/>
+    <text x="255.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Vite</text>
+  </g>
+  <g>
+    <rect x="313.8" y="19.0" width="128.5" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="325.8" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="335.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Tailwind CSS</text>
+  </g>
+  <g>
+    <rect x="454.2" y="19.0" width="97.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="466.2" cy="34.0" r="3.4" fill="#fcd34d"/>
+    <text x="476.2" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Tauri v2</text>
+  </g>
+  <g>
+    <rect x="563.2" y="19.0" width="104.9" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="575.2" cy="34.0" r="3.4" fill="#86efac"/>
+    <text x="585.2" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Capacitor</text>
+  </g>
+  <g>
+    <rect x="680.1" y="19.0" width="167.9" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="692.1" cy="34.0" r="3.4" fill="#86efac"/>
+    <text x="702.1" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Offline-First PWA</text>
+  </g>
+  <g>
+    <rect x="860.0" y="19.0" width="112.8" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="872.0" cy="34.0" r="3.4" fill="#f472b6"/>
+    <text x="882.0" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">HiGHS WASM</text>
+  </g>
+  <g>
+    <rect x="984.8" y="19.0" width="167.9" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="996.8" cy="34.0" r="3.4" fill="#a78bfa"/>
+    <text x="1006.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">IndexedDB / Dexie</text>
+  </g>
+  <g>
+    <rect x="1164.6" y="19.0" width="68.0" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1176.6" cy="34.0" r="3.4" fill="#fb7185"/>
+    <text x="1186.6" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Rust</text>
+  </g>
+  <g>
+    <rect x="1244.6" y="19.0" width="81.2" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1256.6" cy="34.0" r="3.4" fill="#fcd34d"/>
+    <text x="1266.6" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Python</text>
+  </g>
+  <g>
+    <rect x="1337.9" y="19.0" width="81.2" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1349.9" cy="34.0" r="3.4" fill="#86efac"/>
+    <text x="1359.9" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Vitest</text>
+  </g>
+  <g>
+    <rect x="1431.1" y="19.0" width="144.2" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1443.1" cy="34.0" r="3.4" fill="#a78bfa"/>
+    <text x="1453.1" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">GitHub Actions</text>
+  </g>
+  <g>
+    <rect x="1587.4" y="19.0" width="136.4" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1599.4" cy="34.0" r="3.4" fill="#7dd3fc"/>
+    <text x="1609.4" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Google Gemini</text>
+  </g>
+  <g>
+    <rect x="1735.8" y="19.0" width="120.6" height="30" rx="2" fill="#0b0a12" stroke="#f5f2eb" stroke-width="1.2" stroke-opacity="0.72"/>
+    <circle cx="1747.8" cy="34.0" r="3.4" fill="#f472b6"/>
+    <text x="1757.8" y="38.2" fill="#f5f2eb" font-size="12.5" font-weight="600">Antigravity</text>
+  </g></g>
+    </g>
+  </g>
+</svg>

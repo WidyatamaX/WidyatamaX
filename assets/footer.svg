@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="Save Point Footer — WidyatamaX">
+  <title>Save Point Footer — WidyatamaX</title>
+  <defs>
+    <linearGradient id="ft-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0a12"/>
+      <stop offset="55%" stop-color="#131024"/>
+      <stop offset="100%" stop-color="#0d0b17"/>
+    </linearGradient>
+    <radialGradient id="ft-nebula-l" cx="22%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b0a12" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ft-nebula-r" cx="84%" cy="76%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0b0a12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ft-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#f5f2eb" opacity="0.065"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+    .blink { animation: blink 1.15s steps(2, start) infinite; }
+    .tw1 { animation: tw 3.4s ease-in-out infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.12; } }
+    @keyframes tw { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.25; } }
+  </style>
+  <rect width="1200" height="176" rx="10" fill="url(#ft-bg)"/>
+  <rect width="1200" height="176" rx="10" fill="url(#ft-nebula-l)"/>
+  <rect width="1200" height="176" rx="10" fill="url(#ft-nebula-r)"/>
+  <rect width="1200" height="176" rx="10" fill="url(#ft-dots)"/>
+  <polygon points="74.0,42.0 75.7,46.3 80.0,48.0 75.7,49.7 74.0,54.0 72.3,49.7 68.0,48.0 72.3,46.3" fill="#f5f2eb" opacity="0.9" class="tw1"/>
+  <polygon points="1124.0,45.5 1125.8,50.2 1130.5,52.0 1125.8,53.8 1124.0,58.5 1122.2,53.8 1117.5,52.0 1122.2,50.2" fill="#a78bfa" opacity="0.9" class="tw1"/>
+  <polygon points="104.0,129.5 105.3,132.7 108.5,134.0 105.3,135.3 104.0,138.5 102.7,135.3 99.5,134.0 102.7,132.7" fill="#7dd3fc" opacity="0.85"/>
+  <polygon points="1092.0,131.2 1093.3,134.7 1096.8,136.0 1093.3,137.3 1092.0,140.8 1090.7,137.3 1087.2,136.0 1090.7,134.7" fill="#f472b6" opacity="0.85"/>
+
+    <g class="rpg-box">
+    <rect x="160" y="42" width="880" height="110" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.4"/>
+    <rect x="165" y="47" width="870" height="100" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+    <g class="rpg-box">
+    <rect x="184" y="18" width="168" height="34" rx="2.0" fill="#0b0a12" fill-opacity="0.94" stroke="#f5f2eb" stroke-width="2.0"/>
+    <rect x="187.5" y="21.5" width="161.0" height="27.0" rx="1.0" fill="none" stroke="#f5f2eb" stroke-width="1" opacity="0.65"/>
+  </g>
+  <text x="268" y="39.5" text-anchor="middle" fill="#7dd3fc" font-size="12.5" font-weight="800" letter-spacing="2">SAVE POINT</text>
+
+  <text x="600" y="92" text-anchor="middle" fill="#f5f2eb" font-size="17" font-weight="700" class="sans">"Thanks for visiting. You've been coding here for as long as you can remember."</text>
+  <text x="600" y="124" text-anchor="middle" fill="#9b97b8" font-size="13">Made with ☕ &amp; offline-first craft  ·  Reza Widya Utama (@WidyatamaX)</text>
+  <polygon points="1008,124 1020,124 1014,134" fill="#f5f2eb" class="blink"/>
+</svg>
